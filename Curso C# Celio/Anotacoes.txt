@@ -1,0 +1,11 @@
+aspx.cs code behind == vai aonde fica o c#. Lado servidor.	
+designer.cs não é aconselhado alterar
+
+Metodos static não há necessidade de instanciar um objeto do metodo, basta chamar a classe. exe. CLASSEA.metodob
+
+tudo que esta em codebehind herda de page. 
+
+classe X structs
+
+interface= nao ha implementacao so declaracao de atributos com o encapsulamento get set.
+

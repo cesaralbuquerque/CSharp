@@ -1,0 +1,5 @@
+D:\Projetos\Aula C#\Aula 3\Exe1\Exe1\bin\Exe1.dll
+D:\Projetos\Aula C#\Aula 3\Exe1\Exe1\bin\Exe1.pdb
+D:\Projetos\Aula C#\Aula 3\Exe1\Exe1\obj\Debug\Exe1.csprojResolveAssemblyReference.cache
+D:\Projetos\Aula C#\Aula 3\Exe1\Exe1\obj\Debug\Exe1.dll
+D:\Projetos\Aula C#\Aula 3\Exe1\Exe1\obj\Debug\Exe1.pdb

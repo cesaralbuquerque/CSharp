@@ -1,0 +1,6 @@
+D:\Projetos\Aula C#\Aula 3\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.csprojResolveAssemblyReference.cache
+D:\Projetos\Aula C#\Aula 3\Abstract Factory\Abstract Factory\bin\Abstract Factory.dll
+D:\Projetos\Aula C#\Aula 3\Abstract Factory\Abstract Factory\bin\Abstract Factory.pdb
+D:\Projetos\Aula C#\Aula 3\Abstract Factory\Abstract Factory\bin\ConnectionBDWell_DEBUG.dll
+D:\Projetos\Aula C#\Aula 3\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.dll
+D:\Projetos\Aula C#\Aula 3\Abstract Factory\Abstract Factory\obj\Debug\Abstract Factory.pdb

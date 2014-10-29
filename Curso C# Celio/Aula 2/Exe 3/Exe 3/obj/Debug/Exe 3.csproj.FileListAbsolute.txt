@@ -1,0 +1,5 @@
+D:\Projetos\Aula C#\Aula 2\Exe 3\Exe 3\bin\Exe 3.dll
+D:\Projetos\Aula C#\Aula 2\Exe 3\Exe 3\bin\Exe 3.pdb
+D:\Projetos\Aula C#\Aula 2\Exe 3\Exe 3\obj\Debug\Exe 3.dll
+D:\Projetos\Aula C#\Aula 2\Exe 3\Exe 3\obj\Debug\Exe 3.pdb
+D:\Projetos\Aula C#\Aula 2\Exe 3\Exe 3\obj\Debug\Exe 3.csprojResolveAssemblyReference.cache

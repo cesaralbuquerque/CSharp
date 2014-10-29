@@ -1,0 +1,6 @@
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\bin\MvpWebApp.dll.config
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\bin\MvpWebApp.dll
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\bin\MvpWebApp.pdb
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\obj\Debug\MvpWebApp.csprojResolveAssemblyReference.cache
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\obj\Debug\MvpWebApp.dll
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\obj\Debug\MvpWebApp.pdb

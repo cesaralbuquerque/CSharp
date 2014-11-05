@@ -7,5 +7,10 @@ tudo que esta em codebehind herda de page.
 
 classe X structs
 
-interface= nao ha implementacao so declaracao de atributos com o encapsulamento get set.
+interface= nao ha implementacao so declaracao de atributos com o encapsulamento get set. todos os metodos devem ser implementados na classe que utiliza esta interface.
+
+DataSet é o "Banco de dados", já o DataTable é a tabela.
+
+Para manter os dados no servidor utiliza-se sqlDataAdapter.Fill.(dataSet).
+para somente ler os dados durante uma conexao SqlCommand(sql, dadosDeConexao), SqlDataReader = SqlCommand.ExecuteReader(), SqlReader.Read().
 

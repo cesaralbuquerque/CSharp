@@ -4,3 +4,6 @@ D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\bin\M
 D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\obj\Debug\MvpWebApp.csprojResolveAssemblyReference.cache
 D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\obj\Debug\MvpWebApp.dll
 D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula3\MvpWebApp\obj\Debug\MvpWebApp.pdb
+C:\wamp\www\CSharp\Curso C# Celio\Aula 3\Exercicio professor MvpWebApp\MvpWebApp\obj\Debug\MvpWebApp.csprojResolveAssemblyReference.cache
+C:\wamp\www\CSharp\Curso C# Celio\Aula 3\Exercicio professor MvpWebApp\MvpWebApp\obj\Debug\MvpWebApp.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 3\Exercicio professor MvpWebApp\MvpWebApp\obj\Debug\MvpWebApp.pdb

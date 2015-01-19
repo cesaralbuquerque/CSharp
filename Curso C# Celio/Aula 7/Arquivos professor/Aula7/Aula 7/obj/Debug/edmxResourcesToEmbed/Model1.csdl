@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UNIVALI_CSHARPModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="UNIVALI_CSHARPEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Grupo" EntityType="UNIVALI_CSHARPModel.Grupo" />
+    <EntitySet Name="Produto" EntityType="UNIVALI_CSHARPModel.Produto" />
+    <AssociationSet Name="FK_Produto_Grupo" Association="UNIVALI_CSHARPModel.FK_Produto_Grupo">
+      <End Role="Grupo" EntitySet="Grupo" />
+      <End Role="Produto" EntitySet="Produto" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Grupo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Produto" Relationship="UNIVALI_CSHARPModel.FK_Produto_Grupo" FromRole="Grupo" ToRole="Produto" />
+  </EntityType>
+  <EntityType Name="Produto">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+    <Property Name="Nome" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="IdGrupo" Type="Int32" Nullable="false" />
+    <Property Name="Custo" Type="Decimal" Precision="17" Scale="2" />
+    <Property Name="Venda" Type="Decimal" Precision="17" Scale="2" />
+    <Property Name="Saldo" Type="Int32" />
+    <NavigationProperty Name="Grupo" Relationship="UNIVALI_CSHARPModel.FK_Produto_Grupo" FromRole="Produto" ToRole="Grupo" />
+  </EntityType>
+  <Association Name="FK_Produto_Grupo">
+    <End Role="Grupo" Type="UNIVALI_CSHARPModel.Grupo" Multiplicity="1" />
+    <End Role="Produto" Type="UNIVALI_CSHARPModel.Produto" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Grupo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Produto">
+        <PropertyRef Name="IdGrupo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exe2", "Exe2\Exe2.csproj", "{9B7204E8-6493-4990-82AC-C61EA3C94679}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Compras", "Compras\Compras.csproj", "{C8328781-290D-449B-81E2-DC961B5622AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B7204E8-6493-4990-82AC-C61EA3C94679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7204E8-6493-4990-82AC-C61EA3C94679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7204E8-6493-4990-82AC-C61EA3C94679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7204E8-6493-4990-82AC-C61EA3C94679}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8328781-290D-449B-81E2-DC961B5622AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8328781-290D-449B-81E2-DC961B5622AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8328781-290D-449B-81E2-DC961B5622AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8328781-290D-449B-81E2-DC961B5622AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

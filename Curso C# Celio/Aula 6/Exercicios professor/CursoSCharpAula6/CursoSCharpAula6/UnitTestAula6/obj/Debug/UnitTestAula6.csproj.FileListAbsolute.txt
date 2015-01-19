@@ -1,0 +1,7 @@
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\UnitTestAula6\bin\Debug\UnitTestAula6.dll
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\UnitTestAula6\bin\Debug\UnitTestAula6.pdb
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\UnitTestAula6\bin\Debug\AppWinForm.exe
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\UnitTestAula6\bin\Debug\AppWinForm.pdb
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\UnitTestAula6\obj\Debug\UnitTestAula6.csprojResolveAssemblyReference.cache
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\UnitTestAula6\obj\Debug\UnitTestAula6.dll
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\UnitTestAula6\obj\Debug\UnitTestAula6.pdb

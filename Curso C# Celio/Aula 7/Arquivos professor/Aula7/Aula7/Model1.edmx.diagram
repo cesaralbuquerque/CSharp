@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c4d5c347f842471bae0d91f5bc66b2b6" Name="Diagram1">
+        <EntityTypeShape EntityType="UNIVALI_CSHARPModel.Grupo" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UNIVALI_CSHARPModel.Produto" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="UNIVALI_CSHARPModel.FK_Produto_Grupo" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

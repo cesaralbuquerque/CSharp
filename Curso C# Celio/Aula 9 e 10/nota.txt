@@ -1,0 +1,15 @@
+importado o arquivo dentro do SQL server
+
+criado um projeto em branco
+
+apos foi criado uma Class Library
+
+apos um novo item dentro da class library do tipo ADO.NET Entity Data Model
+
+Analise de caso de uso
+analise de diagrama de sequencia
+
+Criado um novo projeto class library que vai ser o modelo logico (bizzness layer)
+
+Criado uma referencia dentro de bizzness layer para o modelo fisico EF
+

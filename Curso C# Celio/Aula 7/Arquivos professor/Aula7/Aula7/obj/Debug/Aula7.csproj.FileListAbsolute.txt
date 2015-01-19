@@ -1,0 +1,14 @@
+d:\célio\documents\visual studio 2013\Projects\Aula7\Aula7\bin\Debug\Aula7.exe.config
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\Aula7.exe.config
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\Aula7.exe
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\Aula7.pdb
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\mscorlib.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\pt-BR\mscorlib.resources.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\normidna.nlp
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\normnfc.nlp
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\normnfd.nlp
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\normnfkc.nlp
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\bin\Debug\normnfkd.nlp
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\obj\Debug\Aula7.csprojResolveAssemblyReference.cache
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\obj\Debug\Aula7.exe
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula7\obj\Debug\Aula7.pdb

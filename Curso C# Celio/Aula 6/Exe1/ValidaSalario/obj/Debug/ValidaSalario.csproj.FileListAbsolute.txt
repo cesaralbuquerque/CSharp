@@ -1,0 +1,7 @@
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe1\ValidaSalario\bin\Debug\ValidaSalario.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe1\ValidaSalario\bin\Debug\ValidaSalario.pdb
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe1\ValidaSalario\bin\Debug\Exe1.exe
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe1\ValidaSalario\bin\Debug\Exe1.pdb
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe1\ValidaSalario\obj\Debug\ValidaSalario.csprojResolveAssemblyReference.cache
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe1\ValidaSalario\obj\Debug\ValidaSalario.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe1\ValidaSalario\obj\Debug\ValidaSalario.pdb

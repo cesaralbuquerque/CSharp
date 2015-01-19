@@ -1,0 +1,7 @@
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe2\Exe2\obj\Debug\Exe2.csprojResolveAssemblyReference.cache
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe2\Exe2\bin\Debug\Exe2.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe2\Exe2\bin\Debug\Exe2.pdb
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe2\Exe2\bin\Debug\Compras.exe
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe2\Exe2\bin\Debug\Compras.pdb
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe2\Exe2\obj\Debug\Exe2.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exe2\Exe2\obj\Debug\Exe2.pdb

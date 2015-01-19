@@ -1,0 +1,25 @@
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\bin\Debug\AppWinForm.exe.config
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\bin\Debug\AppWinForm.exe
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\bin\Debug\AppWinForm.pdb
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.csprojResolveAssemblyReference.cache
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.Form1.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.Properties.Resources.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.csproj.GenerateResource.Cache
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.exe
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.pdb
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.frmDelegacao.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.frmDelegateAnonimo.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.frmDelegateLambda.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoCSharpAula4\AppWinForm\obj\Debug\AppWinForm.frmDelegateActions.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\bin\Debug\AppWinForm.exe.config
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.exe
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.pdb
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\bin\Debug\AppWinForm.exe
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\bin\Debug\AppWinForm.pdb
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.csprojResolveAssemblyReference.cache
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.Form1.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.Properties.Resources.resources
+D:\Célio\Documents\Visual Studio 2013\Projects\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.csproj.GenerateResource.Cache
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exercicios professor\CursoSCharpAula6\CursoSCharpAula6\AppWinForm\bin\Debug\AppWinForm.exe.config
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exercicios professor\CursoSCharpAula6\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.exe
+C:\wamp\www\CSharp\Curso C# Celio\Aula 6\Exercicios professor\CursoSCharpAula6\CursoSCharpAula6\AppWinForm\obj\Debug\AppWinForm.pdb

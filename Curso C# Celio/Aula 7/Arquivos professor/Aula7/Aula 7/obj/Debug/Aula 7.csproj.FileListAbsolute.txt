@@ -1,0 +1,10 @@
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\bin\Debug\Aula 7.exe.config
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\obj\Debug\Aula 7.csprojResolveAssemblyReference.cache
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\bin\Debug\Aula 7.exe
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\bin\Debug\Aula 7.pdb
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\bin\Debug\EntityFramework.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\bin\Debug\EntityFramework.SqlServer.dll
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\bin\Debug\EntityFramework.xml
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\bin\Debug\EntityFramework.SqlServer.xml
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\obj\Debug\Aula 7.exe
+C:\wamp\www\CSharp\Curso C# Celio\Aula 7\Arquivos professor\Aula7\Aula 7\obj\Debug\Aula 7.pdb

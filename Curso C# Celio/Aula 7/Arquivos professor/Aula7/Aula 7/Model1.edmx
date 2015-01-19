@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="UNIVALI_CSHARPModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="UNIVALI_CSHARPModelStoreContainer">
+          <EntitySet Name="Grupo" EntityType="UNIVALI_CSHARPModel.Store.Grupo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Produto" EntityType="UNIVALI_CSHARPModel.Store.Produto" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_Produto_Grupo" Association="UNIVALI_CSHARPModel.Store.FK_Produto_Grupo">
+            <End Role="Grupo" EntitySet="Grupo" />
+            <End Role="Produto" EntitySet="Produto" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Grupo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Produto">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="nvarchar" MaxLength="100" />
+          <Property Name="IdGrupo" Type="int" Nullable="false" />
+          <Property Name="Custo" Type="decimal" Precision="17" Scale="2" />
+          <Property Name="Venda" Type="decimal" Precision="17" Scale="2" />
+          <Property Name="Saldo" Type="int" />
+        </EntityType>
+        <Association Name="FK_Produto_Grupo">
+          <End Role="Grupo" Type="UNIVALI_CSHARPModel.Store.Grupo" Multiplicity="1" />
+          <End Role="Produto" Type="UNIVALI_CSHARPModel.Store.Produto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Grupo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Produto">
+              <PropertyRef Name="IdGrupo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UNIVALI_CSHARPModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="UNIVALI_CSHARPEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Grupo" EntityType="UNIVALI_CSHARPModel.Grupo" />
+          <EntitySet Name="Produto" EntityType="UNIVALI_CSHARPModel.Produto" />
+          <AssociationSet Name="FK_Produto_Grupo" Association="UNIVALI_CSHARPModel.FK_Produto_Grupo">
+            <End Role="Grupo" EntitySet="Grupo" />
+            <End Role="Produto" EntitySet="Produto" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Grupo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Produto" Relationship="UNIVALI_CSHARPModel.FK_Produto_Grupo" FromRole="Grupo" ToRole="Produto" />
+        </EntityType>
+        <EntityType Name="Produto">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+          <Property Name="Nome" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="IdGrupo" Type="Int32" Nullable="false" />
+          <Property Name="Custo" Type="Decimal" Precision="17" Scale="2" />
+          <Property Name="Venda" Type="Decimal" Precision="17" Scale="2" />
+          <Property Name="Saldo" Type="Int32" />
+          <NavigationProperty Name="Grupo" Relationship="UNIVALI_CSHARPModel.FK_Produto_Grupo" FromRole="Produto" ToRole="Grupo" />
+        </EntityType>
+        <Association Name="FK_Produto_Grupo">
+          <End Role="Grupo" Type="UNIVALI_CSHARPModel.Grupo" Multiplicity="1" />
+          <End Role="Produto" Type="UNIVALI_CSHARPModel.Produto" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Grupo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Produto">
+              <PropertyRef Name="IdGrupo" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UNIVALI_CSHARPModelStoreContainer" CdmEntityContainer="UNIVALI_CSHARPEntities">
+          <EntitySetMapping Name="Grupo">
+            <EntityTypeMapping TypeName="UNIVALI_CSHARPModel.Grupo">
+              <MappingFragment StoreEntitySet="Grupo">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Produto">
+            <EntityTypeMapping TypeName="UNIVALI_CSHARPModel.Produto">
+              <MappingFragment StoreEntitySet="Produto">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Nome" ColumnName="Nome" />
+                <ScalarProperty Name="IdGrupo" ColumnName="IdGrupo" />
+                <ScalarProperty Name="Custo" ColumnName="Custo" />
+                <ScalarProperty Name="Venda" ColumnName="Venda" />
+                <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

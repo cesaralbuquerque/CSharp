@@ -1,0 +1,44 @@
+﻿@model CadernoDecoraFestas.Models.Fornecedor
+
+@{
+    ViewBag.Title = "Login";
+}
+
+<h2>Login</h2>
+
+<hgroup class=" title ">
+    <h1>@ViewBag.Title .</h1>
+    <h2>Formulário de Login </h2>
+</hgroup>
+
+@using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
+{
+    @Html.ValidationSummary(true, "Login não foi efetuado . Informe os dados corretos.")
+
+
+    <fieldset>
+        <legend>Formulário de Login </legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.Login)
+                @Html.TextBoxFor(m => m.Login)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Senha)
+                @Html.PasswordFor(m => m.Senha)
+            </li>
+            <li>
+                @*@Html.CheckBoxFor (m => m.RememberMe )
+                @Html.LabelFor (m => m.RememberMe , new {@class=" checkbox " })*@
+            </li>
+        </ol>
+        <input type="submit" value="Log in" />
+    </fieldset>
+    <p>
+        @Html.ActionLink("Registrar", "Register").
+    </p>
+}
+
+@section Scripts {
+   
+}
